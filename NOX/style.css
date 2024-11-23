@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+#wallet, #chat {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    width: calc(100% - 20px);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#chat-box {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+#chat-box p {
+    margin: 5px 0;
+}
+
+#status {
+    color: #f00;
+    font-weight: bold;
+}
